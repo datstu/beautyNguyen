@@ -1,0 +1,27 @@
+
+svg.icon {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    fill: currentColor;
+    vertical-align: middle;
+    background: none;
+    pointer-events: none;
+    overflow: visible;
+}
+.ic-checkorder, .ic-store{
+margin-right: 3px;
+}
+.mega-ul-2{
+    width: auto;
+    left: auto;
+    padding: 4px;
+}
+.mega-ul-2 ul > li > a {
+    font-weight: normal;
+    padding: 10px 0;
+    border-bottom: 2px dashed #f5f5f5;
+    transition: padding-left 0.2s ease-in-out;
+    margin: 0 20px;
+    text-transform: capitalize;
+}
