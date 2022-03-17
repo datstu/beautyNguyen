@@ -21,7 +21,7 @@
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
     overflow-x: hidden;
     position: relative;
     background-color: var(--main-bg-color);
@@ -191,11 +191,12 @@ ul.devided > li:last-child {
 .bottom-header {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .main-menu {
     display: flex;
+    justify-content: space-between;
     height: var(--bottom-header-size);
 }
 
@@ -227,7 +228,7 @@ ul.devided > li:last-child {
     background-color: var(--main-bg-color);
     width: 100%;
     top: calc(100% + 100px);
-    z-index: 2;
+    z-index: 200;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0;
     transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);
 }
@@ -283,7 +284,7 @@ ul.devided > li:last-child {
                     var(--bottom-header-size)
             )
     );
-    padding: 0 20px;
+    /* padding: 0 20px; */
 }
 
 .slider,
