@@ -500,7 +500,7 @@ ul.devided > li:last-child {
 }
 
 .product-card:hover {
-    background-color: var(--second-bg-color);
+    /* background-color: var(--second-bg-color); */
 }
 
 .product-card-img {
