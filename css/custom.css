@@ -90,7 +90,7 @@ margin-right: 3px;
 
 .bg-brand{
     margin-top: 55px;
-    height: 120px;
+    height: 100%;
     background:linear-gradient(90deg, #ffd400 0%, #c73130 50%, #663695 100%);
 }
 .left-brand{
@@ -285,7 +285,7 @@ margin-right: 3px;
 }
 
 .product-card{
-    padding-right: 10px;
+    padding: 8px 5px;
 }
 .product-card-img{
     /* height: unset; */
@@ -629,4 +629,173 @@ footer .bottom-footer p {
     }
   }
  
+.slider-header-desktop{
+    display: block;
+}
+
+.slider-header-mobile{
+    display: none;
+}
+.btn-flat{
+    background: transparent;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: unset;
+}
  
+.product-card-price{
+    display: flex;
+    font-size: 13px;
+}
+
+.btn-hover:hover{
+    border: 2px solid var(--btn-border-color);
+}
+.h2-collection{
+    text-align: center;
+    color: #000 !important;
+    text-transform: uppercase;
+}
+
+.box , .breadcumb{
+    padding-left: 0;
+}
+.product-info-price{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    color: red;
+}
+.product-info-price del{
+    font-size: 20px;
+    color: #999;
+    padding-left: 10px;
+}
+.pro-sale{
+    padding-right: 3px;
+}
+.pro-sale span{
+    color: #ff3425;
+    font-weight: 600;
+}
+
+ .pro-policy {
+    display: flex; 
+     flex-wrap: wrap; 
+     justify-content: flex-end; 
+     padding:  0; 
+     border-top: 1px solid #f5f5f5; 
+     border-bottom: 1px solid #f5f5f5;
+}
+
+.pro-policy p {
+    padding: 0 10px 0 0;
+    margin-bottom: 6px;
+    width: 50%;
+}
+.pro-policy svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+.btn-add-cart{
+    border-radius: 5px;
+}
+.product-row{
+    padding-bottom: 0;
+}
+@media only screen and (max-width: 577px) {
+    .section {
+        padding-bottom: 0;
+    }
+    [class*="col-"]{
+        padding:0 5px;
+    }
+    
+    .custom-slide {
+        max-width:  -webkit-fill-available;
+        margin-bottom: 86px;
+    }
+    .slider-header-desktop{
+        display: none;
+    }
+    .slider-header-mobile{
+        display: block;
+    }
+
+    .left-brand {
+        text-align: center;
+    }
+
+   .owl-new-product-mobile{
+       display: none;
+   }
+   .product-card-img {
+    height: auto;
+   }
+   #owl-sales-product .owl-dots {
+       display: block;
+   }
+   .product-btn, #owl-contact .owl-dots{
+       display: none;
+   }
+   .product-card-price .curr-price{
+       font-size: 13px;
+   }
+   .product-card-vendor {
+    margin: 8px 0;
+   }
+   .product-card-name {
+       font-size: 13px;
+   }
+    .product-card-info{
+        padding: 0;
+    }
+    .menu-collection{
+        display: none;
+    }
+   
+    .section-header h2.has-line a{
+        font-size: 16px;
+    }
+    .blog {
+        margin-bottom: 20px;
+       
+    }
+    .blog-info , .blog-preview {
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .blog-img{
+        width: 50%;
+    }
+    .blog-title {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .btn-flat {
+        padding: 5px 10px;
+    font-size: 12px;
+    }
+    footer{
+        padding: 0;
+    }
+    .mb-0{
+        margin-bottom: 0;
+    }
+    .pro-policy p {
+        width: 100% !important;
+    }
+    .btn-add-cart{
+        width: 100%;
+       
+        border: 1px solid #160f0f;
+        
+        border-radius: 6px;
+        padding: 10px 25px;
+        line-height: 22px;
+        font-size: 12px;
+        
+        text-transform: uppercase;
+    }
+}
